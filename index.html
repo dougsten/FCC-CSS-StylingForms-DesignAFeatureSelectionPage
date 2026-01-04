@@ -3,18 +3,38 @@
 
 <head>
     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scae=1.0" name="viewport">
     <title>Selection Feature Page</title>
-    <link type="stylesheet" src="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
-
 <body>
-  <h1>Feature Selection</h1>
-  <div class="feature-card-container">
-    <label class="feature-card">Box1-1</label>
-    <label class="feature-card">Box1-2</label>
-    <input type="checkbox" class="checkbox" title="Checkbox1" placeholder=" ">
-  </div>
-
+    <h1>Feature Selection</h1>
+    <div class="feature-card-container">
+        <label  for="card1" class="feature-card">
+            <input type="checkbox" id="card1" name="cloud-storage" value="cloud-storage">
+            Cloud Storage<span>100 Gygabyte secure storage</span>
+        </label>
+        <label  for="card2" class="feature-card">
+          <input type="checkbox" id="card2" name="dedicated-support" value="dedicated-support">
+          Dedicated Support<span>24/7 customer help</span>
+        </label>
+        <label  for="card3" class="feature-card">
+          <input type="checkbox" id="card3" name="advanced-analytics" value="advanced-analytics">
+          Advanced Analytics<span>Insights & reports</span>
+        </label>
+        <label  for="card4" class="feature-card">
+            <input type="checkbox" id="card4" name="cloud-storage" value="cloud-storage">
+            Custom User Themes<span>Personalized dashboard design</span>
+        </label>
+        <label  for="card5" class="feature-card">
+            <input type="checkbox" id="card5" name="cloud-storage" value="cloud-storage">
+            Multi-User Collab<span>Team access and sharing</span>
+        </label>
+        <label  for="card6" class="feature-card">
+          <input type="checkbox" id="card6" name="api-access" value="api-access">
+          API Access<span> Integrate with your custom built tools</span>
+        </label>
+      </div>
 </body>
 
 </html>
